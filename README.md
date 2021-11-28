@@ -2,6 +2,10 @@
 
 PunditQL adds infers the action based on the class name so Pundit can be used for application where the GraphQL naming conventions applies.
 
+## TODO
+- [ ] Use custom erro in `Mutation#action_name`.
+
+
 ## Installation
 
 Add this line to your application's Gemfile:
