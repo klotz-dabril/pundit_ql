@@ -4,7 +4,7 @@ require_relative "lib/pundit_ql/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "pundit_ql"
-  spec.version       = PunditQl::VERSION
+  spec.version       = PunditQL::VERSION
   spec.authors       = ["Otto Raphael Klotz D'Abril"]
   spec.email         = ["klotz.dabril@gmail.com"]
 

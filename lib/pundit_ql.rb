@@ -2,7 +2,10 @@
 
 require_relative "pundit_ql/version"
 
-module PunditQl
+require_relative "pundit_ql/base"
+require_relative "pundit_ql/resolver"
+require_relative "pundit_ql/mutation"
+
+module PunditQL
   class Error < StandardError; end
-  # Your code goes here...
 end
