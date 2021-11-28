@@ -1,5 +1,7 @@
 # frozen_string_literal: true
 
+require 'pundit'
+
 require_relative "pundit_ql/version"
 
 require_relative "pundit_ql/base"
