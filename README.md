@@ -32,7 +32,7 @@ class Something < GraphQL::Schema::Resolver
         ...
   
   def resolve(id:)
-    scope = ::Something.find_by(id: id)
+    something = ::Something.find_by(id: id)
     
     authorize something # this is where the magic happens
 
@@ -55,7 +55,7 @@ class Somethings < GraphQL::Schema::Resolver
         ...
   
   def resolve(id:)
-    scope = ::Something.find_by(id: id)
+    something = ::Something.find_by(id: id)
     
     authorize something # this is where the magic happens
 
